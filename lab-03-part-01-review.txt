@@ -15,7 +15,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
+cd ~
 
 
 ==========
@@ -23,7 +23,9 @@ Write the command that you used to do this below:
 
 Write the command that you used to do this - as well as its output - below :
 ----------
+pwd
 
+/Users/student
 
 
 ==========
@@ -31,15 +33,26 @@ Write the command that you used to do this - as well as its output - below :
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
+ls
 
-
-
+AMALogger20190109.log	Library			ipe.properties
+AMALogger20190128.log	MPLABXProjects		isus
+AMALogger20190130.log	MTECH1003		mtec1002
+AMALogger20190204.log	Movies			mtec1002-lab-02
+AMALogger20190206.log	Music			mtec1002-lab-02.zip
+Adlm			New Unity Project	pizza
+Adobe			Pictures		pymel.log
+Applications		Public			secret.tar.gz
+Creative Cloud Files	QLData			stuff
+Desktop			Things			xgen
+Documents		__MACOSX
+Downloads		hulkbuster.ai
 ==========
 4. If there are directories or files in your home directory that have the word mtec1002 in them, list them below (otherwise skip this step):
 ----------
-
-
-
+mtec1002
+mtec1002-lab-02
+mtec1002-lab-02.zip
 ==========
 5. Delete these directories from your home folder by using this command:
 
@@ -65,7 +78,7 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
-
+curl -o mtec1002-lab-03.tar.gz  http://foureyes.github.io/mtec1002-spring2014/labs/03/mtec1002-lab-03.tar.gz
 
 
 ==========
@@ -73,7 +86,9 @@ Write the command(s) that you used to download this file - as well as its output
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0   4341      0 --:--:-- --:--:-- --:--:--  4450
 
 
 ==========
@@ -88,7 +103,20 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
+ls
 
+AMALogger20190109.log	Library			ipe.properties
+AMALogger20190128.log	MPLABXProjects		isus
+AMALogger20190130.log	MTECH1003		mtec1002-lab-03
+AMALogger20190204.log	Movies			mtec1002-lab-03.tar.gz
+AMALogger20190206.log	Music			mtec1002-lab-03.tar.gz.
+Adlm			New Unity Project	pizza
+Adobe			Pictures		pymel.log
+Applications		Public			secret.tar.gz
+Creative Cloud Files	QLData			stuff
+Desktop			Things			xgen
+Documents		__MACOSX
+Downloads		hulkbuster.ai
 
 
 ==========
@@ -96,7 +124,9 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
+ls
 
+books	logs	web
 
 
 ==========
@@ -104,15 +134,17 @@ Write the command(s) that you used to determine this - as well as its output - b
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
-
-
-
+cd ~
+cd mtec1002-lab-03/books/science-fiction
+pwd
 ==========
 11.  Write the files that are in the science fiction directory below.
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
+ls
 
+pg84.txt	pg86.txt
 
 
 ==========
@@ -120,21 +152,21 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to do this below:
 ----------
-
+cd /user/student/mtec1002-lab-03/books/science-fiction
 ==========
 OPTIONAL
 13. Immediately change back to the mtec1002-lab-03 folder with a single command using a *relative* path.
 
 Write the command(s) that you used to do this below:
 ----------
-
+cd ../..
 ==========
 OPTIONAL
 14. Find out what the most recently modified directory is in mtec1002 (there are only 3 to choose from)?  How would you find this out?  Hint: perhaps using something to show the modified date... and sort it by time.
 
 Write the command(s) that you used to do this below:
 ----------
-
+ls -t
 ==========
 OPTIONAL
 15. Create a compressed archive of the logs folder - that is... take the contents of logs and create a single archive (.tar), and compress (.gz)
